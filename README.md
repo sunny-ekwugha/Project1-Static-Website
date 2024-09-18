@@ -4,8 +4,7 @@
 This project demonstrates how to host a static HTML web application on Amazon Web Services (AWS). It leverages various AWS services and configurations to ensure high availability, security, and scalability. The architecture includes a Virtual Private Cloud (VPC) with public and private subnets, an Application Load Balancer (ALB), EC2 instances, and more.
 
 ## Architecture Diagram
-![Architecture Diagram](path/to/your/diagram.png)  
-*(Make sure to replace the path with the actual location of your diagram)*
+![Alt text](Host_a_Static_Website_on_AWS.png)  
 
 ## AWS Resources Utilized
 - **VPC Configuration**: Created a VPC with public and private subnets across two availability zones for high availability.
