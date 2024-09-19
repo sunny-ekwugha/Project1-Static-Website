@@ -11,7 +11,7 @@ This project demonstrates how to host a static HTML web application on Amazon We
 - **Internet Gateway**: Deployed to enable internet connectivity for VPC instances.
 - **Security Groups**: Configured as a firewall mechanism:
   - **EICE Security Group**: SSH (port 22) access restricted to VPC CIDR block.
-  - **ALB Security Group**: HTTP (port 80) and HTTPS (443) access from the internet (0.0.0.0/0).
+  - **ALB Security Group**: HTTP (port 80) and HTTPS (443) access from the internet (0.0.0.0/0) and SSH (port 22) access restricted the EICE security group.
   - **Webapp Security Group**: HTTP (port 80) and HTTPS (443) access restricted to the ALB security group.
 - **NAT Gateway**: Used in public subnets to allow instances in private subnets to access the internet securely.
 - **EC2 Instance Connect Endpoint**: Facilitated secure connections to assets in public and private subnets.
