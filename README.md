@@ -46,7 +46,7 @@ yum install git -y
 git clone https://github.com/sunny-ekwugha/Project1-Static-Website.git
 
 # Copy all files, including hidden ones, from the cloned repository to the Apache web root
-cp -R Project1-Static-Websites/. /var/www/html/
+cp -R Project1-Static-Website/. /var/www/html/
 
 # Remove the cloned repository directory to clean up unnecessary files
 rm -rf Project1-Static-Website
